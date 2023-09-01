@@ -1,13 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>New Portfolio</h1>
-    <p>feature added - (dropdown)</p>
-    <p>feature added - (button)</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>SURAJ | PortFolio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">SurajVerma.</div>
+      <ul class="nav-items">
+        <li class="nav-list-items"><a href="#home">Home</a></li>
+        <li class="nav-list-items"><a href="#about">About me</a></li>
+        <li class="nav-list-items"><a href="#services">Services</a></li>
+        <li class="nav-list-items"><a href="#portfolio">Portfolio</a></li>
+        <li class="nav-list-items"><a href="#contact">Contact me</a></li>
+      </ul>
+
+      <div class="nav-menu open-btn">
+        <i class="fa-solid fa-bars fa-xl" style="color: #000000"></i>
+      </div>
+
+      <div class="side-navbar">
+        <div class="close-btn">
+          <i
+            class="fa-regular fa-circle-xmark fa-2xl"
+            style="color: #03045e"
+          ></i>
+        </div>
+        <div class="logo">SurajVerma.</div>
+        <ul class="side-nav-items">
+          <li class="side-nav-list-items"><a href="#home">Home</a></li>
+          <li class="side-nav-list-items"><a href="#about">About me</a></li>
+          <li class="side-nav-list-items"><a href="#services">Services</a></li>
+          <li class="side-nav-list-items">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="side-nav-list-items"><a href="#contact">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <h2>Hi there!</h2>
+      <h1>I'm Suraj Verma</h1>
+      <h2>Django Web Stack Developer</h2>
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/suraj-verma-a4a8b8221"
+          target="_blank"
+          ><i
+            class="fa-brands fa-linkedin fa-2xl social-icons"
+            style="color: #03045e"
+          ></i
+        ></a>
+        <a href="https://github.com/surajverma02" target="_blank"
+          ><i
+            class="fa-brands fa-github fa-2xl social-icons"
+            style="color: #03045e"
+          ></i
+        ></a>
+        <a
+          href="https://instagram.com/suraj.verma02?igshid=ZDdkNTZiNTM="
+          target="_blank"
+          ><i
+            class="fa-brands fa-instagram fa-2xl social-icons"
+            style="color: #03045e"
+          ></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100026799344241&mibextid=ZbWKwL"
+          target="_blank"
+          ><i
+            class="fa-brands fa-facebook fa-2xl social-icons"
+            style="color: #03045e"
+          ></i
+        ></a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>ABOUT ME</h2>
+      <div class="about-content">
+        <div class="image">
+          <img src="/image/surajPhoto.jpg" alt="My Image" />
+        </div>
+        <div class="about-me">
+          <h3>I'm Suraj Verma</h3>
+          <h4>Django Web Stack Developer</h4>
+          <p style="line-height: 20px">
+            I'm a Student at Atma Ram Sanatan Dharma College, University of
+            Delhi. I am looking forward to obtain a creative and challenging
+            position in an organization that gives me an opportunity for
+            self-improvement.
+          </p>
+          <div class="about-details">
+            <p><span>Age</span> | 19 Yrs</p>
+            <p><span>Birthday</span> | 10th Feb 2004</p>
+            <p><span>Phone</span> | +91 9540218696</p>
+            <p><span>E-mail</span> | surajverma8730448@gmail.com</p>
+            <p><span>Residence</span> | New Delhi</p>
+            <p><span>Freelance</span> | Available</p>
+          </div>
+          <a
+            >Download CV
+            <i class="fa-solid fa-download fa-lg" style="color: #03045e"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="education">
+      <div class="education-head">
+        <h2>EDUCATION</h2>
+      </div>
+      <div class="education-details">
+        <div class="education-graduate education-box">
+          <div class="edu-head">
+            <h3>Graduation</h3>
+            <h3>2024</h3>
+          </div>
+          <div class="edu-para">
+            <h4>Atma Ram Sanatan Dharma College</h4>
+            <h4 style="color: #2d2d2d">Bachelor's of Science</h4>
+            <ul style="padding-left: 20px">
+              <li>Major : Electronics Honours</li>
+              <li>Grade : 8.71 CGPA</li>
+            </ul>
+          </div>
+        </div>
+        <div class="education-12 education-box">
+          <div class="edu-head">
+            <h3>Intermediate</h3>
+            <h3>2021</h3>
+          </div>
+          <div class="edu-para">
+            <h4>Govt. Boys Sr. Sec School, Hastsal</h4>
+            <h4 style="color: #2d2d2d">Science Stream</h4>
+            <ul style="padding-left: 20px">
+              <li>Major : PCM</li>
+              <li>Marks : 93.33 %</li>
+            </ul>
+          </div>
+        </div>
+        <div class="education-10 education-box">
+          <div class="edu-head">
+            <h3>Metriculation</h3>
+            <h3>2019</h3>
+          </div>
+          <div class="edu-para">
+            <h4>Govt. Boys Sr. Sec School, Shiv Vihar</h4>
+            <h4 style="color: #2d2d2d">Matricualtion</h4>
+            <ul style="padding-left: 20px">
+              <li>Marks : 94.6 %</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service" id="services">
+      <div class="service-head">
+        <h2>MY SKILLS</h2>
+      </div>
+      <div class="services">
+        <div class="services-items">
+          <h2>Web Design</h2>
+          <div>
+            <img src="image/html.png" alt="HTML" />
+            <img src="image/css.png" alt="CSS" />
+            <img src="image/js.png" alt="JAVASCRIPT" />
+            <img src="image/bootstrap.png" alt="BOOTSTRAP" />
+          </div>
+        </div>
+        <div class="services-items">
+          <h2>Python</h2>
+          <div>
+            <img src="image/python.png" alt="PYTHON" />
+            <img src="image/django.png" alt="DJANGO" />
+          </div>
+        </div>
+        <div class="services-items">
+          <h2>Java</h2>
+          <div>
+            <img src="image/java.png" alt="JAVA" />
+            <img src="image/spring.png" alt="SPRING BOOT" />
+          </div>
+        </div>
+        <div class="services-items">
+          <h2>DBMS</h2>
+          <div>
+            <img src="image/mysql.png" alt="MySQL" />
+            <img src="image/mongodb.png" alt="MONGOdb" />
+          </div>
+        </div>
+        <div class="services-items">
+          <h2>Microsoft Office</h2>
+          <div>
+            <img src="image/word.png" alt="WORD" />
+            <img src="image/powerpoint.png" alt="POWERPOINT" />
+            <img src="image/excel.png" alt="EXCEL" />
+            <img src="image/office.png" alt="OFFICE" />
+          </div>
+        </div>
+        <div class="services-items">
+          <h2>Canva Design</h2>
+          <div>
+            <img src="image/canva.png" alt="CANVA" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project" id="portfolio">
+      <div class="project-head">
+        <h2>PORTFOLIO</h2>
+      </div>
+      <div class="projects">
+        <div class="project-items">
+          <div class="project-description">
+            <h2>Personal portfolio</h2>
+            <p>
+                "My portfolio website showcases a collection of my standout projects, highlighting my skills and creativity. It offers a glimpse into my diverse capabilities and dedication to impactful web development."
+            </p>
+            <p><span>Skill : </span>HTML, CSS, JavaScript</p>
+            <a href="https://github.com/surajverma02/suraj-portfolio"
+              >Code &nbsp;<i
+                class="fa-solid fa-link fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+            <a href="#home"
+              >Preview &nbsp;<i
+                class="fa-solid fa-arrow-up-right-from-square fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+          </div>
+          <div>
+            <img src="image/project7.png" alt="" />
+          </div>
+        </div>
+        <div class="project-items">
+          <div>
+            <img src="image/project1.png" alt="" />
+          </div>
+          <div class="project-description">
+            <h2>Amazon Clone</h2>
+            <p>
+              "A front-end web development exercise emulating the visual design
+              and layout of Amazon. By replicating Amazon's interface,
+              developers gain practical skills in web design and user interface
+              development."
+            </p>
+            <p><span>Skill : </span>HTML, CSS</p>
+            <a href="https://github.com/surajverma02/Clone-Amazon"
+              >Code &nbsp;<i
+                class="fa-solid fa-link fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+            <a href="https://clone-amazon-website.netlify.app"
+              >Preview &nbsp;<i
+                class="fa-solid fa-arrow-up-right-from-square fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div class="project-items">
+          <div class="project-description">
+            <h2>Coursify-A hiring Website</h2>
+            <p>
+              "The frontend project for the candidate hiring website demo
+              creates a user-friendly interface connecting employers and job
+              seekers. It features modern design, easy navigation, and
+              responsiveness."
+            </p>
+            <p><span>Skill : </span>HTML, CSS, JavaScript</p>
+            <a href="https://github.com/surajverma02/demo-coursify"
+              >Code &nbsp;<i
+                class="fa-solid fa-link fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+            <a href="https://demo-coursify.netlify.app"
+              >Preview &nbsp;<i
+                class="fa-solid fa-arrow-up-right-from-square fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+          </div>
+          <div>
+            <img src="image/project6.png" alt="" />
+          </div>
+        </div>
+        <div class="project-items">
+          <div>
+            <img src="image/project3.png" alt="" />
+          </div>
+          <div class="project-description">
+            <h2>Deep Thought</h2>
+            <p>
+              "Through Deep Thought, developers gain insights into building
+              sophisticated e-learning platforms that empower students worldwide
+              to expand their knowledge effectively and efficiently."
+            </p>
+            <p><span>Skill : </span>HTML, CSS, JavaScript</p>
+            <a href="https://github.com/surajverma02/Deep-Thought"
+              >Code &nbsp;<i
+                class="fa-solid fa-link fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+            <a href="https://deep-thought-project.netlify.app/"
+              >Preview &nbsp;<i
+                class="fa-solid fa-arrow-up-right-from-square fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div class="project-items">
+          <div class="project-description">
+            <h2>Login / Signup form</h2>
+            <p>
+              "A front-end web development undertaking that mirrors the login
+              and sign-up functionalities of popular platforms. The project
+              involves creating responsive pages for user registration and
+              login."
+            </p>
+            <p><span>Skill : </span>HTML, CSS</p>
+            <a href="https://github.com/surajverma02/loginpage"
+              >Code &nbsp;<i
+                class="fa-solid fa-link fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+            <a href="https://login-form-project2.netlify.app/"
+              >Preview &nbsp;<i
+                class="fa-solid fa-arrow-up-right-from-square fa-lg"
+                style="color: #03045e"
+              ></i
+            ></a>
+          </div>
+          <div>
+            <img src="image/project4.png" alt="" />
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="info">
+        <p class="con-tittle">Get in touch <br /><span>Contact me</span></p>
+        <div class="detail">
+          <h1 class="contact-name">SURAJ</h1>
+          <div class="contact-info">
+            <p>+91 9540218696</p>
+          </div>
+          <div class="contact-info">
+            <p>surajverma8730448@gmail.com</p>
+          </div>
+          <div class="contact-info">
+            <p>
+              B-349, Shiv Vihar, Uttam Nagar,<br />
+              New Delhi-110059
+            </p>
+          </div>
+          <div class="social social-mobile">
+            <a
+              href="https://www.linkedin.com/in/suraj-verma-a4a8b8221"
+              target="_blank"
+              ><i
+                class="fa-brands fa-linkedin fa-2xl social-icons"
+                style="color: #03045e"
+              ></i
+            ></a>
+            <a href="https://github.com/surajverma02" target="_blank"
+              ><i
+                class="fa-brands fa-github fa-2xl social-icons"
+                style="color: #03045e"
+              ></i
+            ></a>
+            <a
+              href="https://instagram.com/suraj.verma02?igshid=ZDdkNTZiNTM="
+              target="_blank"
+              ><i
+                class="fa-brands fa-instagram fa-2xl social-icons"
+                style="color: #03045e"
+              ></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100026799344241&mibextid=ZbWKwL"
+              target="_blank"
+              ><i
+                class="fa-brands fa-facebook fa-2xl social-icons"
+                style="color: #03045e"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <form action="" method="post" id="myForm">
+        <h2 class="form-head">Drop me a message</h2>
+        <input type="text" placeholder="Your Name" name="name" />
+        <input type="email" placeholder="Email Id" name="email" />
+        <input type="number" placeholder="Phone no." name="phone" />
+        <textarea
+          placeholder="Message for me?"
+          rows="3"
+          name="message"
+        ></textarea>
+        <button class="submit">
+          Submit &nbsp;<i
+            class="fa-solid fa-paper-plane fa-lg"
+            style="color: #03045e"
+          ></i>
+        </button>
+      </form>
+    </section>
+    <footer>
+      <h4>@ Copyright 2023 By Suraj, All Right Reserved</h4>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
 </html>
