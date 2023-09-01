@@ -10,12 +10,4 @@ Within my personal portfolio, the "Personal Portfolio Project" stands as a testa
 
 Harnessing <strong>HTML, CSS, and JavaScript</strong>, I skillfully crafted a dynamic web application. The site seamlessly adapts to a variety of screen sizes and devices, adhering to modern design principles and rigorous accessibility standards.
 
-<h2>User-Centric Design: </h2><br>
-
-Prioritizing user experience, I ensured an intuitive interface that enhances user engagement and satisfaction.
-
-Outcome:
-
-This project underscores my commitment to delivering top-notch digital experiences and showcases my proficiency in web development. I cordially invite you to explore this project and witness the fusion of creative vision and technical prowess.
-
 <h2>Explore Now: </h2><br> [Link to the Project]
