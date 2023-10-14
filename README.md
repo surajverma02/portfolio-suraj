@@ -10,4 +10,6 @@ Within my personal portfolio, the "Personal Portfolio Project" stands as a testa
 
 Harnessing <strong>HTML, CSS, and JavaScript</strong>, I skillfully crafted a dynamic web application. The site seamlessly adapts to a variety of screen sizes and devices, adhering to modern design principles and rigorous accessibility standards.
 
-<h2>Explore Now: </h2><br> [Link to the Project]
+<h2>Explore Now: </h2><br>
+<a href="https://surajverma02.github.io/portfolio-suraj/">Portfolio </a>
+[Link to the Project]
